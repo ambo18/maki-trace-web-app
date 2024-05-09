@@ -61,7 +61,7 @@ const Evacuation = () => {
   const { testContext, logout } = useAuthContext();
 
   // Modal states and functions
-  const [isAddEcModalVisible, setIsAddEcModalVisible] = useState(false);
+  const [isAddEcModalVisible, setIsAddEcModalVisible] = useState(true);
   const [isViewEcModalVisible, setIsViewEcModalVisible] = useState(false);
   const [isEditEcModalVisible, setIsEditEcModalVisible] = useState(false);
   const [isArchiveEcModalVisible, setIsArchiveEcModalVisible] = useState(false);
@@ -254,7 +254,7 @@ const Evacuation = () => {
             <ul className="space-y-2">
               <li>
                 <Link to="/">
-                  <img src={DoraHomeIcon} alt="DORAv4 Home Button" />
+                  <img src={DoraHomeIcon} alt="Maki-Trace Home Button" />
                 </Link>
               </li>
               <li className="pt-48">
@@ -566,7 +566,7 @@ const Evacuation = () => {
         <ul className="flex flex-row-reverse mx-auto gap-4">
           <li>
             <Link to="/">
-              <img src={DoraHomeIcon} alt="DORAv4 Home Button" className="w-16 h-16" />
+              <img src={DoraHomeIcon} alt="Maki-Trace Home Button" className="w-16 h-16" />
             </Link>
           </li>
           <li className="mx-2">

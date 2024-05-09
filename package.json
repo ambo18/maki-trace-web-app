@@ -1,55 +1,57 @@
 {
-  "name": "disaster-online-reporting-application-v4-web-app",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@react-google-maps/api": "^2.12.2",
-    "@react-google-maps/marker-clusterer": "^2.16.1",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "axios": "^0.27.2",
-    "firebase": "^9.9.4",
-    "google-map-react": "^2.2.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-google-places-autocomplete": "^3.4.0",
-    "react-icons": "^4.4.0",
-    "react-paginate": "^8.1.3",
-    "react-places-autocomplete": "^7.3.0",
-    "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
-    "react-to-print": "^2.14.10",
-    "react-toastify": "^9.0.8",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.8",
-    "postcss": "^8.4.16",
-    "tailwindcss": "^3.1.8"
-  }
+    "name": "maki-trace-web-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@react-google-maps/api": "^2.19.3",
+        "@react-google-maps/marker-clusterer": "^2.19.2",
+        "@testing-library/jest-dom": "^5.17.0",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "axios": "^1.6.8",
+        "firebase": "^10.11.0",
+        "google-map-react": "^2.2.1",
+        "leaflet": "^1.9.4",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-google-places-autocomplete": "^4.0.1",
+        "react-icons": "^5.1.0",
+        "react-leaflet": "^4.2.1",
+        "react-paginate": "^8.2.0",
+        "react-places-autocomplete": "^7.3.0",
+        "react-router-dom": "^6.23.0",
+        "react-scripts": "5.0.1",
+        "react-to-print": "^2.15.1",
+        "react-toastify": "^10.0.5",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.19",
+        "postcss": "^8.4.38",
+        "tailwindcss": "^3.4.3"
+    }
 }

@@ -1,6 +1,5 @@
 import { Routes, Route } from "react-router-dom";
 import Login from "./pages/login";
-import Evacuation from "./pages/evacuation";
 import Reports from "./pages/reports";
 import Map from "./pages/map";
 import Unauthorized from "./pages/unauthorized";
@@ -20,12 +19,6 @@ function App() {
   // List of libraries to inject to JavaScript API Loader
   const [libraries] = useState(["places"]);
 
-  // Google API JavaScript SDK loader
-  const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: process.env.REACT_APP_GOOGLE_API_KEY,
-    libraries,
-  });
-
   return (
     <>
       <Routes>
@@ -35,14 +28,6 @@ function App() {
           element={
             <ProtectedRoute>
               <Menu />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/evacuation"
-          element={
-            <ProtectedRoute>
-              <Evacuation />
             </ProtectedRoute>
           }
         />

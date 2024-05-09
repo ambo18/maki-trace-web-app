@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "802049124908",
+    "firebase_url": "https://app-d-and-er-application-default-rtdb.firebaseio.com",
+    "project_id": "app-d-and-er-application",
+    "storage_bucket": "app-d-and-er-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802049124908:android:aefc93fa7d5614503f3f89",
+        "android_client_info": {
+          "package_name": "com.app.dorav4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdDrbr6PfLUY0Y9Tkd4dLvJIvIdsRzyIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -23,7 +23,7 @@ export const AuthContextProvider = ({ children }) => {
 
   const signIn = (email, password) => {
     return signInWithEmailAndPassword(auth, email, password).then((user) => {
-      if (user.user.uid !== "AGyuYPeaLxTrwVdscteoff2dQeJ2") {
+      if (user.user.uid !== "KbDb0nZAFMcitgvxlJ8ZIRXxAu93") {
         toast.error("Invalid admin credentials!");
         return signOut(auth);
       } else {

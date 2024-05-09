@@ -4,7 +4,6 @@ import { useAuthContext } from "../contexts/AuthContext";
 import { toast } from "react-toastify";
 
 // Image assets
-import DoraLogo from "../assets/dora_logo.svg";
 import { HiMail, HiKey } from "react-icons/hi";
 import { useEffect } from "react";
 
@@ -42,15 +41,12 @@ const Login = () => {
 
   return (
     <div className="flex flex-col h-screen justify-center items-center bg-bg-color">
-      {/* Logo */}
-      <div className="bg-safe-white px-5 py-8 rounded-2xl mb-8">
-        <img src={DoraLogo} alt="DORAv4 Logo" />
-      </div>
+    
       {/* Login */}
       <div className="bg-safe-white p-6 px-10 pb-10 rounded-2xl">
         <form onSubmit={handleSubmit}>
           <h1 className="text-safe-black text-2xl font-bold text-center">
-            Welcome to DORA, <br />
+            Welcome to Maki-Trace, <br />
             Administrator
           </h1>
           <div className="flex flex-col mb-8">

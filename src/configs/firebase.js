@@ -10,13 +10,12 @@ import { getDatabase } from "firebase/database";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: "dorav4-app.firebaseapp.com",
-  databaseURL: "https://dorav4-app-default-rtdb.firebaseio.com",
-  projectId: "dorav4-app",
-  storageBucket: "dorav4-app.appspot.com",
-  messagingSenderId: "369884319647",
-  appId: "1:369884319647:web:e1b75d09c6070ab7f3f7aa",
-  measurementId: "G-TLGM915PM3",
+  authDomain: "app-d-and-er-application.firebaseapp.com",
+  databaseURL: "https://app-d-and-er-application-default-rtdb.firebaseio.com",
+  projectId: "app-d-and-er-application",
+  storageBucket: "app-d-and-er-application.appspot.com",
+  messagingSenderId: "802049124908",
+  appId: "1:802049124908:android:aefc93fa7d5614503f3f89",
 };
 
 // Initialize Firebase

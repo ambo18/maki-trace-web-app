@@ -107,9 +107,7 @@ const Reports = () => {
       profilePicture: current.profilePicture,
       reportId: current.reportId,
       reportPicture: current.reportPicture,
-      upvotes: current.upvotes,
       userId: current.userId,
-      Upvotes: current.Upvotes ? current.Upvotes : null,
       Comments: current.Comments ? current.Comments : null,
     }).catch((error) => toast.error(error.message));
     // Delete current evacuation item from EvacuationCenters collection
@@ -191,13 +189,7 @@ const Reports = () => {
             <ul className="space-y-2">
               <li>
                 <Link to="/">
-                  <img src={DoraHomeIcon} alt="DORAv4 Home Button" />
-                </Link>
-              </li>
-              <li className="pt-48">
-                <Link to="/evacuation" className="text-secondary-gray transition hover:text-primary-green focus:text-secondary-green">
-                  {/* <img src="src\assets\reports_icon.svg" alt="Reports Icon" className="mx-auto" /> */}
-                  <HiOfficeBuilding className="h-12 w-12 mx-auto" />
+                  <img src={DoraHomeIcon} alt="Maki-Trace Home Button" />
                 </Link>
               </li>
               <li className="pt-6">
@@ -348,7 +340,7 @@ const Reports = () => {
                       <img src={current.reportPicture} className="w-full h-full mt-2 rounded-xl" alt="Disaster Report's attached image" />
                       <p className="mt-2 text-safe-black">Report Description: {current.description}</p>
                       <p className="text-safe-black">
-                        Report has {current.upvotes} upvotes and {current.comments} comments
+                        Report has {current.comments} comments
                       </p>
                       <div className="flex gap-4 justify-center pb-2">
                         <button onClick={handleOnClose} className="border-2 border-primary-green mt-8 px-10 py-2 rounded-full font-bold text-xl text-primary-green shadow-lg transition hover:bg-secondary-green hover:text-safe-white">
@@ -418,13 +410,7 @@ const Reports = () => {
         <ul className="flex flex-row-reverse mx-auto gap-4">
           <li>
             <Link to="/">
-              <img src={DoraHomeIcon} alt="DORAv4 Home Button" className="w-16 h-16" />
-            </Link>
-          </li>
-          <li className="mx-2">
-            <Link to="/evacuation" className="text-secondary-gray transition hover:text-primary-green focus:text-secondary-green">
-              {/* <img src="src\assets\reports_icon.svg" alt="Reports Icon" className="mx-auto" /> */}
-              <HiOfficeBuilding className="h-16 w-16 mx-auto" />
+              <img src={DoraHomeIcon} alt="Maki-Trace Home Button" className="w-16 h-16" />
             </Link>
           </li>
           <li className="mx-2">

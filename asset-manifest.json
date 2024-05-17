@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/maki-trace-web-app/static/css/main.62d2ba4c.css",
+    "main.js": "/maki-trace-web-app/static/js/main.082841f0.js",
+    "static/media/page_not_found_illu.svg": "/maki-trace-web-app/static/media/page_not_found_illu.48a60598d17530bf591b97ac4932f6d3.svg",
+    "static/media/loading_illu.svg": "/maki-trace-web-app/static/media/loading_illu.9b0a09a27f8ee148ccb3e4f9c7b9cc77.svg",
+    "static/media/heavy_rain_pin.svg": "/maki-trace-web-app/static/media/heavy_rain_pin.f1a12ff1956b94a657bb2005668a6e92.svg",
+    "static/media/no_results_illu.svg": "/maki-trace-web-app/static/media/no_results_illu.7abcd0d921b432750084a3ce412d3e95.svg",
+    "static/media/tsunami_pin.svg": "/maki-trace-web-app/static/media/tsunami_pin.00e4973b99ef5a6cba8606559f0bdc47.svg",
+    "static/media/typhoon_pin.svg": "/maki-trace-web-app/static/media/typhoon_pin.faeb9144eed1327006d891dc73dd8160.svg",
+    "static/media/volcanic_eruption_pin.svg": "/maki-trace-web-app/static/media/volcanic_eruption_pin.38f8fe5ac43532d1eeffaaa880185e86.svg",
+    "static/media/fire_pin.svg": "/maki-trace-web-app/static/media/fire_pin.17de79393d284161ccfe87da324e8d02.svg",
+    "static/media/flood_pin.svg": "/maki-trace-web-app/static/media/flood_pin.ef5869fbdd3e89fcc9eae5005adc7fdc.svg",
+    "static/media/earthquake_pin.svg": "/maki-trace-web-app/static/media/earthquake_pin.14b7681019be4419e85ecb50e072dfc7.svg",
+    "index.html": "/maki-trace-web-app/index.html",
+    "static/media/landslide_pin.svg": "/maki-trace-web-app/static/media/landslide_pin.4c52027e1d8a0dfe9d38aad09784dcdb.svg",
+    "static/media/dora_home_btn.svg": "/maki-trace-web-app/static/media/dora_home_btn.0b1eb61da5bb8821a66c56d3245c862b.svg",
+    "main.62d2ba4c.css.map": "/maki-trace-web-app/static/css/main.62d2ba4c.css.map",
+    "main.082841f0.js.map": "/maki-trace-web-app/static/js/main.082841f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62d2ba4c.css",
+    "static/js/main.082841f0.js"
+  ]
+}

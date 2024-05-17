@@ -12,7 +12,6 @@ import "react-toastify/dist/ReactToastify.min.css";
 import Menu from "./pages/menu";
 import ProtectedRoute from "./helpers/ProtectedRoute";
 import { useState } from "react";
-import { useJsApiLoader } from "@react-google-maps/api";
 import GenerateReport from "./components/GenerateReport";
 
 function App() {

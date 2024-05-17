@@ -48,7 +48,7 @@ const GenerateReport = () => {
 
   useEffect(() => {
     console.log(data, type);
-  }, []);
+  }, [handlePrint]);
 
   return (
     <div ref={componentRef} className="bg-safe-white h-screen flex justify-center mx-auto">
